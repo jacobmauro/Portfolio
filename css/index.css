@@ -1,0 +1,73 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	font-family: sand-serif;
+}
+
+.hero-image-cut{
+background: #f1f1f1;
+  position:absolute;
+  top: 440px;
+  left: -50px;
+  width: 2500px;
+  height: 300px;
+  transform-origin: center top;
+  transform: rotate(3deg);
+}
+
+.hero-image{
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+	/*background: url(images/myself4.jpg) no-repeat center;*/
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../images/myself4.jpg) no-repeat center; /*myself4 is a good one*/
+	background-size: cover;
+	transform-origin: center top;
+	/*transform: rotate(8deg);*/
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.container h1{
+	font-size: 72px;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+.container h1 span{
+	border: 10px solid white;
+	padding: 6px 14px;
+	display: inline-block;
+}
+
+.des{
+	margin: 20px;
+	display: block;
+	font-size: 26px;
+	text-shadow: 0 0 10px black;
+}
+
+.btn{
+	color: #313131;
+	padding: 10px 24px;
+	font-size: 20px;
+	text-decoration: none;
+	background: #f1f1f1;
+	border-radius: 8px;
+	transition: 0.3s all;
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
